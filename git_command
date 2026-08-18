@@ -1,0 +1,11 @@
+ git init
+ git status                                                                                                           
+ git add .                                                                                                                                                                                                                           
+ git status                                                                                                                                                                                                                                                                                                                     
+ git rm --cached first.py                                                                                             
+ git status                                                                                                           
+ git add .                                                                                                            
+ git commit -m "added testing files"                                                                                                                                                                                           
+ git status                                                                                                           
+ rm first.py                                                                                                          
+ git restore first.py 
